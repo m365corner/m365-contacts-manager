@@ -1,7 +1,7 @@
 const msalInstance = new msal.PublicClientApplication({
     auth: {
-        clientId: "2ad2aa9f-80e1-4d0e-a883-50ff9d0005cb",
-        authority: "https://login.microsoftonline.com/eada0ccc-e428-49b6-a676-cf824a3e3850",
+        clientId: "<your-client-id>",
+        authority: "https://login.microsoftonline.com/<your-tenant-id>",
         redirectUri: "http://localhost:8000",
     },
 });
